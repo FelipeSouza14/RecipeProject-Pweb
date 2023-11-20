@@ -11,7 +11,7 @@ export function HomePage2 ({ imagePath, description}){
             </div>
             <div className={styles.divTwo}>
                 <img src={imagePath} className={styles.imageStyle}/>
-                <Link href="../videoPage/video2">
+                <Link href={"/next-receita-2/pages/videoPage/videoPage"}>
                     <button className={styles.button}>
                         Assistir Trailer
                     </button>
