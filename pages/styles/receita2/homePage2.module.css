@@ -1,0 +1,60 @@
+.homePage2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    
+}
+
+.divTwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 250px;
+}
+
+.imageStyle{
+    width: 430px;
+    height: 570px;
+    border-radius: 10px;
+}
+
+.button{
+    margin-top: 50px;
+    width: 200px;
+    height: 70px;
+    background-color: rgba(17, 104, 234);
+    color: white;
+    border-radius: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.button:hover{
+    /* opacity: 0.8; */
+    background-color: rgba(52, 122, 227)
+}
+
+.descriptionStyle{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-align: justify;
+    font-weight: bold;
+    word-wrap: break-word;
+    padding: 3%;
+    color: white;
+}
+
+.leftDiv{
+    margin-right: 300px;
+    max-width: 35%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    /* background-color: rgba(0, 73, 181, 0.95); */
+    background: transparent;
+}
