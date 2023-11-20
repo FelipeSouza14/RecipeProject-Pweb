@@ -4,7 +4,7 @@ import Link from "next/link";
 export function HomeCards (){
     return (
         <div className={styles.cardsDiv}>
-            <Link href="">
+            <Link href="../next-receita-1/receita1">
                 <div className={styles.homeCardStyle}>
                     <img src={"/assets/cards/next-receita-1.png"} className={styles.cardsImageStyle}/>
                 </div>
