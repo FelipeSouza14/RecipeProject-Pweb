@@ -6,37 +6,37 @@ export function HomeCards (){
         <div className={styles.cardsDiv}>
             <Link href="">
                 <div className={styles.homeCardStyle}>
-                    <img src="" className={styles.cardStyle}/>
+                    <img src={"/assets/cards/next-receita-1.png"} className={styles.cardsImageStyle}/>
                 </div>
             </Link>
             <Link href="">
                 <div className={styles.homeCardStyle}>
-                    <img src="" className={styles.cardStyle}/>
+                    <img src={"/assets/cards/next-receita-2.png"} className={styles.cardsImageStyle}/>
                 </div>
             </Link>
             <Link href="">
                 <div className={styles.homeCardStyle}>
-                    <img src="" className={styles.cardStyle}/>
+                    <img src={"/assets/cards/next-receita-3.png"} className={styles.cardsImageStyle}/>
                 </div>
             </Link>
             <Link href="">
                 <div className={styles.homeCardStyle}>
-                    <img src="" className={styles.cardStyle}/>
+                    <img src={"/assets/cards/next-receita-4.png"} className={styles.cardsImageStyle}/>
                 </div>
             </Link>
             <Link href="">
                 <div className={styles.homeCardStyle}>
-                    <img src="" className={styles.cardStyle}/>
+                    <img src={"/assets/cards/next-receita-5.png"} className={styles.cardsImageStyle}/>
                 </div>
             </Link>
             <Link href="">
                 <div className={styles.homeCardStyle}>
-                    <img src="" className={styles.cardStyle}/>
+                    <img src={"/assets/cards/next-receita-6.png"} className={styles.cardsImageStyle}/>
                 </div>
             </Link>
             <Link href="">
                 <div className={styles.homeCardStyle}>
-                    <img src="" className={styles.cardStyle}/>
+                    <img src={"/assets/cards/next-receita-9.png"} className={styles.cardsImageStyle}/>
                 </div>
             </Link>
         </div>

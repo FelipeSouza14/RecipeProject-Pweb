@@ -1,0 +1,17 @@
+.homePage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.title{
+    font-size: 32px;
+    padding: 20px;
+    background: #299ADA;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: "TT Lakes Neue Trl Cmd";
+    color: white;
+    border-radius: 10px;
+}
