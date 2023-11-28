@@ -86,15 +86,11 @@ export default function Movies() {
 
     return (
 
-        <div>
-
             <div>
 
-                {data.Search[0].Title} --- {data.Search[0].Year}
+                {data.Search.map((m) => <div>{m.Title} --- {m.Year}</div>)}
 
             </div>
-
-        </div>
 
     )
 
