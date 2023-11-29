@@ -1,3 +1,7 @@
+function transformar (elemento){
+    return(<div>{elemento.Title} --- {elemento.Year}</div>)
+}
+
 export default function Movies() {
 
 
@@ -88,7 +92,7 @@ export default function Movies() {
 
             <div>
 
-                {data.Search.map((m) => <div>{m.Title} --- {m.Year}</div>)}
+                {data.Search.map(transformar)}
 
             </div>
 
