@@ -18,7 +18,7 @@ export async function getServerSideProps(context){
 }
 
 function transformar (elemento){
-    return(<div>{elemento.Title} --- {elemento.Year}</div>)
+    return(<div className={styles.cards}>{elemento.Title} --- {elemento.Year}</div>)
 }
 
 export default function Movies({data}) { // Então o nome do parametro desestruturado também precisa ser igual
