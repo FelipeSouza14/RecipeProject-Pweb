@@ -1,0 +1,30 @@
+.pageBackground{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    min-height: 100vh;
+    gap: 10px;
+}
+
+.cards{
+    padding: 10px;
+    background-color: aqua;
+    color: black;
+}
+
+.searchBar{
+    background-color: #FFF;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #000;
+    padding: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    position: fixed;
+    top: 10%;
+}
+
