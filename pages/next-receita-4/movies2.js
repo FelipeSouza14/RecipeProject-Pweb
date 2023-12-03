@@ -1,7 +1,12 @@
 import styles from '../styles/receita4/movies2.module.css';
+import useSWR from 'swr';
 
 export default function Movies2() {
-    const data = fetcher(`http://www.omdbapi.com/?apikey=ME_SUBSTITUA&s=bagdad`)
+    const { data, error } = useSWR(`http://www.omdbapi.com/?apikey=ME_SUBSTITUA&s=bagdad`, fetcher)
+
+    if (error) return <div>falha na requisição...</div>
+
+    if (!data) return <div>carregando...</div>
 
     return (
         <div>
@@ -9,6 +14,8 @@ export default function Movies2() {
         </div>
     )
 }
+
+
 
 async function fetcher(url) {
     const res = await fetch(url);
