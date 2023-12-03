@@ -19,7 +19,7 @@ export function HomeCards (){
                     <img src={"/assets/cards/next-receita-3.png"} className={styles.cardsImageStyle}/>
                 </div>
             </Link>
-            <Link href="">
+            <Link href="../next-receita-4/movies2">
                 <div className={styles.homeCardStyle}>
                     <img src={"/assets/cards/next-receita-4.png"} className={styles.cardsImageStyle}/>
                 </div>
