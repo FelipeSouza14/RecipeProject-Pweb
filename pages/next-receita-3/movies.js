@@ -27,7 +27,10 @@ export default function Movies({data}) { // Então o nome do parametro desestrut
     const [search, setSearch] = React.useState("");
 
     const searchLowerCase = search.toLocaleLowerCase();
-    const dataSearch = data.Search.filter((p) => p.Title.toLocaleLowerCase().includes(searchLowerCase));
+    const dataSearch = data.Search.filter((p) => { return (
+        p.Title.toLocaleLowerCase().includes(searchLowerCase) ||
+        p.Year.includes(searchLowerCase)
+    )});
 
     return (
         <div className={styles.pageBackground}>
