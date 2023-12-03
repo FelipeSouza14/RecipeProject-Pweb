@@ -1,8 +1,9 @@
 import styles from '../styles/receita4/movies2.module.css';
 import useSWR from 'swr';
 
+// A função useSWR() é um hook, e ela está permitindo que ao não receber os dados, a página exiba a mensagem "carregando..."
 export default function Movies2() {
-    const { data, error } = useSWR(`http://www.omdbapi.com/?apikey=ME_SUBSTITUA&s=bagdad`, fetcher)
+    const { data, error } = useSWR(`http://www.omdbapi.com/?apikey=5a35dc18&s=bagdad`, fetcher)
 
     if (error) return <div>falha na requisição...</div>
 
@@ -14,8 +15,6 @@ export default function Movies2() {
         </div>
     )
 }
-
-
 
 async function fetcher(url) {
     const res = await fetch(url);
