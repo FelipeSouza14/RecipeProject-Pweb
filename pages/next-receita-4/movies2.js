@@ -1,0 +1,1 @@
+import styles from '../styles/receita4/movies2.module.css';
