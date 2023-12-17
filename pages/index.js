@@ -1,5 +1,5 @@
 import styles from "./styles/index.module.css";
-import { HomeCards } from "./homeScreen/homePage";
+import HomeCards from "./homeScreen/homePage";
 
 export default function Main (){
     return(

@@ -1,7 +1,7 @@
 import styles from "./homePage.module.css";
 import Link from "next/link";
 
-export function HomeCards (){
+export default function HomeCards (){
     return (
         <div className={styles.cardsDiv}>
             <Link href="../next-receita-1/receita1">
