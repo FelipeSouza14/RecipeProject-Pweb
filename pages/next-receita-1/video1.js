@@ -1,6 +1,6 @@
 import styles from "../styles/receita1/video1.module.css";
 
-export function YouTubeBackground () {
+export default function YouTubeBackground() {
   return (
     <div className={styles.video}>
       <iframe
