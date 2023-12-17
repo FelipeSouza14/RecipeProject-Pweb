@@ -24,7 +24,7 @@ export default function HomeCards (){
                     <img src={"/assets/cards/next-receita-4.png"} className={styles.cardsImageStyle}/>
                 </div>
             </Link>
-            <Link href="">
+            {/* <Link href="">
                 <div className={styles.homeCardStyle}>
                     <img src={"/assets/cards/next-receita-5.png"} className={styles.cardsImageStyle}/>
                 </div>
@@ -38,7 +38,7 @@ export default function HomeCards (){
                 <div className={styles.homeCardStyle}>
                     <img src={"/assets/cards/next-receita-9.png"} className={styles.cardsImageStyle}/>
                 </div>
-            </Link>
+            </Link> */}
         </div>
     )
 }
